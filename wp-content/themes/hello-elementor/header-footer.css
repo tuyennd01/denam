@@ -10,9 +10,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
   position: relative;
+  padding: 0 !important;
 }
 .site-header .site-navigation {
   justify-content: flex-end;

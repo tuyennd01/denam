@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Bontey;
+    src: url(./assets/fonts/KS-Bontey-Kro-F.ttf);
+}
+
+@font-face {
+    font-family: Fahkwang;
+    src: url(./assets/fonts/Fahkwang-Regular.ttf);
+}
+body,div, p, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+.title-font {
+    font-family: Bontey !important;
+}
+
+body {
+    font-family: Fahkwang;
+}
+.flex {
+    display: flex;
+}
+
+.site-header {
+    height: 76px;
+    background: #E7DAC9;
+    padding: 0;
+    align-items: center;
+}
+
+.header-inner {
+    max-width: unset !important;
+    padding: 0 100px;
+}
+
+.site-branding-pc {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu-list-items {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+.menu-list-items .menu-item a {
+    color: #683525;
+}
+.header-item {
+    align-items: center;
+}
+
+.header-button {
+    margin-left: 32px;
+    gap: 16px;
+}
+
+.button-phone {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #683525;
+    color: #683525 !important;
+}
+
+.button-address {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    background: #683525;
+    color: #FFFFFF !important;
+}
+
